@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/responsive.css" rel="stylesheet" type="text/css">
+    <title>QuizzDisney</title>
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <div id="donald">
+                <img src="images/donald-duck.png" alt="image de Donald Duck" width="150 px" height="150px">
+            </div>
+
+            <div id="title_container">
+                <h1> Mon Super Quizz Disney </h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+      <section>
+          <div id="quizzContainer">  
+              <div id="timeAndQuestion_container">
+                 <p id ="timer"  >Temps restant :<span id="span-timer"></span></p>
+                 <h2 id="question"></h2>        <!--contient les questions--> 
+              </div>
+
+              <div id="buttons_container">
+                 <div class="for_buttonsDirection">
+                     <button class="choiceAnswer" onclick="reply(this)"> </button><!--les réponses s'affichent ds les button onclick-->   
+                     <button class="choiceAnswer" onclick="reply(this)"> </button>
+                 </div>
+
+                 <div class="for_buttonsDirection">
+                     <button class="choiceAnswer" onclick="reply(this)"> </button>
+                     <button class="choiceAnswer" onclick="reply(this)"> </button>
+                 </div>
+              </div>
+
+              <div id="answerAndScore_container">
+                 <div id="theGoodanswerIs"> </div>  <!--commentaires adressés au joueur s'y afficheront--> 
+                 <div id="score"> </div>  <!--score sy'affichera  --> 
+              </div>
+
+              <button id="btn-replay" onclick="reset(this)">Rejouer</button>
+          </div>
+      </section>
+    </main>
+
+   
+    <script src="assets/index.js"></script>
+</body>
+
+</html>

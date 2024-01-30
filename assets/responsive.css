@@ -1,0 +1,423 @@
+/* @media (max-width: 1280px) MAC BOOK  AIR:   1280 x 800
+  @media (max-width: 884px)   GALAXY FOLD 2:   884x1104
+   @media (max-width: 768px)  IPAD MINI    :   768 x 1024
+   @media (max-width: 414px)  IPHONE 11    :   414x896
+   @media (max-width: 375px)  Iphone X/13  :   375x812
+   @media (max-width: 320px)  IPHONE 5     :   320x568            */
+ 
+
+/*--------------------------- @media(max-width: 1280px) MAC BOOK AIR---------------------------- */
+
+@media all and (max-width: 1280px){
+
+   section {
+      width: 100%;
+      padding-top: 18vh;
+   }
+
+   #timer{
+      font-size: 5vh;
+   }
+
+   #buttons_container{
+      margin-top: 20px;
+   }
+
+  .choiceAnswer{
+     height: 135px;
+     font-size: 3vh;
+   }
+
+   #answerAndScore_container{
+     margin-top: 20px;
+     width: 65%;
+  }
+}
+
+
+/*------------------@media (max-width: 1104px) GALAXY FOLD 2 EN PAYSAGE:--------------*/
+
+@media all and (max-width: 1104px){
+
+  body{
+      background-image: url("../images/bg1024px.jpg");
+  }
+
+   header{
+      width: 100%;
+      height: 14%;
+      position: absolute;
+   }
+
+   section {
+      padding-top: 15vh;
+   }
+
+   #timer{
+      font-size: 4vh;
+   }
+
+   #question {
+      font-size: 4vh;
+   }
+
+   #buttons_container{
+      margin-top: 15px !important;
+      margin-top: 50px;
+   }
+
+   .for_buttonsDirection{
+      flex-direction: column;
+   }
+
+   .choiceAnswer{
+      width: 700px;
+      height:75px;
+      margin: 5px 0 5px 0;
+   }
+
+   .choiceAnswer:hover {
+      background-size: 17%;
+   }
+
+   #answerAndScore_container{
+      margin-top: 10px;
+      width: 63%;
+   }
+    
+   #btn-replay{
+      margin-top: 15px;
+   }
+}
+
+
+/*-----------@media(max-width: 1024px) IPAD MINI  EN PAYSAGE--------*/
+
+@media all and (max-width: 1024px) and (orientation:landscape){
+
+   body{
+    background-image: url("../images/bg1024px.jpg");
+   }
+
+   #timer{
+      font-size: 4.5vh;
+   }
+     
+   #question {
+      font-size: 4.5vh;
+   }
+
+   .choiceAnswer{
+      width: 800px;
+      height:70px;
+      font-size:3.5vh ;
+   }
+
+   .choiceAnswer:hover {
+      background-size: 15%;
+   }
+ 
+   #answerAndScore_container{
+      width: 78%;
+   }
+
+   #btn-replay{
+      margin-top: 5px;
+   } 
+ }
+
+
+/*------------ pour IPHONE 11  (414x896) orienté en paysage :-----*/
+ @media all and  (max-width:896px) and (orientation:landscape){
+
+   body{
+      background-image: url("../images/bgLandscape.jpg");
+      background-color:#77ADEE;
+   }
+
+   header{
+     height: 18%;
+   }
+
+   h1{
+     font-size: 10vh;
+   }
+
+  section{
+     padding-top: 20vh;
+  }
+
+  #timer{
+     font-size: 6vh;
+  }
+
+  #question{
+    font-size: 6vh;
+  }
+
+  .choiceAnswer{
+     font-size:5vh ;
+     width: 700px;
+     height: 35px;
+   }
+
+   .choiceAnswer:hover{
+      background-size: 7%;
+   }
+
+   #answerAndScore_container{
+     background-color: #00122a;
+     opacity: 0.9;
+     width: 86.5% ;
+   }
+
+  #theGoodanswerIs{
+     font-size: 5vh;
+     text-shadow: none;
+     font-weight: bold;
+  }
+
+  #score{
+    font-size: 5vh;
+  }
+
+  #btn-replay{
+    font-size:4vh ;
+    width: 80px;
+    height:6vh ;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+
+/*-----------@media(max-width: 884px) GALAXY FOLD 2 EN PORTRAIT--------*/
+
+@media all and (max-width: 884px) and (orientation :portrait){
+
+   body{
+      background-image: url("../images/bg768px.jpg");
+   }
+
+   h1{
+      font-size: 4vh;
+   }
+
+  #timer{
+    font-size:3vh;
+  }
+
+   #question{
+     font-size: 3vh;
+   }
+   
+   #buttons_container{
+      margin-top: 60px !important;
+   }
+
+   .choiceAnswer{
+      height: 110px;
+      font-size: 3vh;
+   }
+     
+   .choiceAnswer:hover {
+      background-size: 20%;
+   }
+     
+   #answerAndScore_container{
+      margin-top: 10px;
+      width: 79%;
+   }
+   
+   #theGoodanswerIs {
+     font-size: 3vh;
+   }
+
+   #score{
+     font-size: 3vh;
+   }
+
+   #btn-replay{
+      margin-top: 10px;
+      padding:3px;
+      width: 130px;
+   }
+}
+
+
+/*-------- pour Iphone X/13 (375x812) orienté en paysage :-------------*/
+@media all and (max-width:812px) and (orientation:landscape){
+
+   body{
+      background-image: url("../images/bgLandscape.jpg");
+      background-color: #738BEC;
+   }
+}
+
+
+/*-----------@media(max-width: 768px)I pad mini EN PORTRAIT----------------------*/
+
+@media all and (max-width: 768px) and (orientation:portrait){
+
+   body{
+      background-image: url("../images/bg768px.jpg");
+   }
+
+   #question{
+      font-size: 4vh;
+   }
+
+   .choiceAnswer{
+      width: 680px;
+      height: 90px;
+   }
+     
+   #answerAndScore_container{
+      width: 88%;
+   }
+
+   #btn-replay{
+      margin-top: 20px;
+   }
+}
+
+
+/* --------------pour IPHONE 5  (320x568) orienté en paysage :---------*/
+
+@media all and  (max-width:568px) and (orientation:landscape){
+   header{
+      height: 25%;
+   }
+
+   h1{
+      font-size: 12vh;
+   }
+
+   #quizzContainer{
+      margin-top: 20px;
+   }
+   #timer{
+      font-size: 8vh;
+   }
+
+   #question{
+      font-size: 8vh;
+   }
+
+   .choiceAnswer{
+      width: 550px;
+      height: 70px;
+      font-size: 7vh;
+   }
+
+   .choiceAnswer:hover{
+      background-size: 20%;
+   }
+
+   #answerAndScore_container{
+      width: 95%;
+   }
+
+   #theGoodanswerIs{
+      font-size: 8vh;
+   }
+
+  #score{
+     font-size: 8vh;
+  }
+  #btn-replay{
+   font-size: 7vh;
+   height: 11vh;
+   margin-top: 20px;
+
+ }
+}
+ 
+
+/*-------------------@media(max-width: 414px)IPHONE 11 EN PORTRAIT-------------*/
+
+@media screen and (max-width: 414px) and (max-height:896px) and (orientation:portrait){
+
+ h1{
+    font-size: 4.5vh;
+  }
+
+ #timer{
+    font-size: 3.5vh ;
+  }
+ 
+ #question {
+    font-size: 3.5vh !important;
+  }
+
+ #buttons_container{
+    margin-top: 20px !important;
+  }
+
+ .choiceAnswer{
+    width: 390px;
+    height: 70px;
+    font-size: 2.5vh;
+  }
+
+  #answerAndScore_container{
+      width: 93%;
+   }
+ 
+  #theGoodanswerIs {
+     font-size: 3vh;
+  }
+
+  #score {
+     font-size: 3.5vh;
+  }
+}
+
+
+/*--------@media (max-width: 375px )Iphone X/13 EN PORTRAIT------*/
+
+@media all and (max-width: 375px) and (orientation: portrait) {
+
+   body{
+      background-image: url("../images/bg876px.jpg");
+   }
+  
+   .choiceAnswer{
+      width: 360px;
+      height: 55px;
+      font-size: 2.5vh;
+   }
+
+   #btn-replay{
+      width: 100px;
+   }
+}
+
+
+/*-------------@media (max-width: 375px )I PAD 5 EN PORTRAIT ----*/
+@media all and (max-width: 320px) and (orientation: portrait) {
+   
+   body{
+      background-image: url("../images/bg320.jpg");
+      background-color: #738BEC;
+   }
+
+   #buttons_container{
+      margin-top: 10px !important;
+   }
+
+   .choiceAnswer{
+      width: 320px;
+      height: 60px;
+      font-size: 3.5vh;
+   }
+
+   .choiceAnswer:hover{
+      background-size: 25%;
+   }
+
+   #theGoodanswerIs {
+      font-size: 4vh;
+   }
+}
+

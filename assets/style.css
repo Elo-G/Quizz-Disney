@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Mouse Memoirs", sans-serif;
+  background-image: url("../images/bgDisney.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:left bottom;
+}
+
+header{
+  width: 100%;
+  height: 17%;
+  position: absolute;
+}
+
+#banner {
+  width: 100%;
+  height: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #339ad252;
+  border-bottom: solid 1px;
+  color: white;
+}
+
+#donald{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#donald img{
+  width: 100%;
+  height: 100%;
+}
+
+#title_container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+h1{
+  padding:0 30px 0 0;
+  margin: 0;  
+  color: goldenrod;
+  font-size: 7vh;
+  text-shadow: 1px 3px 3px black;
+}
+
+/* MAIN */
+
+main {
+ width: 100%;
+ height: 100%;
+}
+
+section {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+#quizzContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timeAndQuestion_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer{
+  color:goldenrod;
+  font-size: 7vh;
+  letter-spacing: 1px;
+  display: flex;
+  margin-top: 5px !important;
+  margin-bottom: 0;
+  text-shadow: 1px 3px 3px black;
+}
+
+#question {
+  text-align: center;
+  color: goldenrod;
+  font-size: 4vh;
+  letter-spacing: 2px;
+  margin-top: 5px !important;
+  margin-bottom: 0;
+  text-shadow: 1px 3px 3px black;
+}
+
+#buttons_container{
+  margin-top: 50px;
+}
+
+.for_buttonsDirection{
+  display: flex;
+  justify-content: center;
+}
+
+.choiceAnswer {
+  width: 375px;
+  height: 150px;
+  margin: 10px  40px 10px 40px;
+  font-size: 2.5vh;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #00122a;
+  border-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-shadow: 1px 3px 3px black;
+}
+
+.choiceAnswer:hover {
+  background-image: url("../images/clochette.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 50%;
+}
+
+
+#answerAndScore_container{
+  width: 43%;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #00122abe;
+}
+
+#theGoodanswerIs {
+  width: 100%;
+  color:crimson;
+  text-align: center;
+  text-shadow: 1px 3px 3px black;
+  font-size: 3.5vh;
+  letter-spacing: 1px;
+}
+
+#score {
+  width: 100%;
+  color: goldenrod;
+  text-align: center;
+  text-shadow: 1px 2px 3px black;
+  font-size: 4vh;
+  letter-spacing: 1px;
+}
+
+#btn-replay{
+  width: 160px;
+  height:5vh ;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 3vh;
+  background-color: #00122a;
+  color: white;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+#btn-replay:hover{
+  background-color: white;
+  color: #00122a;
+}
+
